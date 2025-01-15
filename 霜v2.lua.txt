@@ -113,7 +113,7 @@ local Tab = Window:MakeTab({
 
 local Section = Tab:AddSection({
 
-	Name = "欢迎霜"
+	Name = "欢迎哦"
 
 })
 
@@ -131,7 +131,7 @@ Tab:AddSlider({
 
 	Increment = 1,
 
-	ValueName = "数值",
+	ValueName = "这里是数值",
 
 	Callback = function(Value)
 
@@ -155,7 +155,7 @@ Tab:AddSlider({
 
 	Increment = 1,
 
-	ValueName = "数值",
+	ValueName = "这里是数值",
 
 	Callback = function(Value)
 
