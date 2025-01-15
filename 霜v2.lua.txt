@@ -103,7 +103,7 @@ getgenv().Spy="mspaint" loadstring(game:HttpGet("https://raw.githubusercontent.c
 
 local Tab = Window:MakeTab({
 
-    Name = "玩家",
+    Name = "功能【哦制作】有搬的",
 
     Icon = "rbxassetid://4483345998",
 
@@ -113,7 +113,7 @@ local Tab = Window:MakeTab({
 
 local Section = Tab:AddSection({
 
-	Name = "欢迎哦"
+	Name = "↓下面⑩功能"
 
 })
 
@@ -237,23 +237,22 @@ Tab:AddToggle({
 
 Tab:AddButton({
 
-	Name = "飞行V3（隐藏）",
+	Name = "皮脚本",
 
 	Callback = function()
 
-     loadstring(game:HttpGet('https://pastebin.com/raw/U27yQRxS'))()
-
+    getgenv().XiaoPi="皮脚本QQ群1002100032" loadstring(game:HttpGet("https://raw.githubusercontent.com/xiaopi77/xiaopi77/main/QQ1002100032-Roblox-Pi-script.lua"))() 
   	end    
 
 })
 
 Tab:AddButton({
 
-	Name = "替身",
+	Name = "忍脚本【卡密FREE】",
 
 	Callback = function()
 
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/SkrillexMe/SkrillexLoader/main/SkrillexLoadMain')))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/renlua/shallow/refs/heads/main/%E8%84%9A%E6%9C%AC.lua"))()
 
     end
 
@@ -261,11 +260,11 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/SkrillexMe/SkrillexL
 
 Tab:AddButton({
 
-	Name = "爬墙",
+	Name = "名脚本",
 
 	Callback = function()
 
-loadstring(game:HttpGet("https://pastebin.com/raw/zXk4Rq2r"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/wumingjiaoben/qingfeng/refs/heads/main/Protected_3492027993091205.lua"))()
 
 end
 
@@ -285,11 +284,11 @@ end
 
 Tab:AddButton({
 
-	Name = "变成蛇",
+	Name = "路管r16",
 
 	Callback = function()
 
-loadstring(game:HttpGet(('https://pastefy.ga/tWBTcE4R/raw'),true))()
+loadstring(game:HttpGet("https://pastefy.app/YZoglOyJ/raw"))()
 
 	end
 
