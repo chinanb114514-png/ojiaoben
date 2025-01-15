@@ -40,7 +40,7 @@ end
 Start = tick()
 Heartbeat:Connect(HeartbeatUpdate)
 local Window = OrionLib:MakeWindow({Name = "哦脚本中心", HidePremium = false, SaveConfig = true,IntroText = "哦脚本中心", ConfigFolder = "哦脚本中心"})
-game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "霜中心"; Text ="霜中心"; Duration = 4; })
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "哦脚本中心"; Text ="哦脚本中心"; Duration = 6; })
 
 local about = Window:MakeTab({
     Name = "哦脚本中心",
