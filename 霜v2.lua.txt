@@ -4971,3 +4971,11 @@ Tab:AddButton({
     end
 
 })
+
+Tab:AddButton({
+
+    Name="nb6666",
+
+    Callback=function()
+
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/FreeRobloxScripts/anime-fighting/main/simulator"))()
