@@ -4972,10 +4972,20 @@ Tab:AddButton({
 
 })
 
+local Tab = Window:MakeTab({
+
+	Name = "ms脚本v114514",
+
+	Icon = "rbxassetid://4483345998",
+
+	PremiumOnly = false
+
+})
+
 Tab:AddButton({
 
-    Name="nb6666",
+	Name = "ms666",
 
-    Callback=function()
+	Callback = function()
 
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/FreeRobloxScripts/anime-fighting/main/simulator"))()
+getgenv().Spy="mspaint" loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoXuAnZang/XKscript/refs/heads/main/DOORS.txt"))()
