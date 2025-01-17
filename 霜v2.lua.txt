@@ -4962,11 +4962,11 @@ local Tab = Window:MakeTab({
 
 Tab:AddButton({
 
-    Name="刀刃球",
+    Name="情云脚本",
 
     Callback=function()
 
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/jiankeQWQ/jiankeV3/main/daorenqiu"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/AFKZxc/ERT.MAIN/main/DMK.lua"))()
 
     end
 
