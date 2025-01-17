@@ -5007,3 +5007,16 @@ loadstring(utf8.char((function() return table.unpack({108,111,97,100,115,116,114
      end
 
 })
+
+Tab:AddButton({
+   
+    Name="情云脚本",
+
+    Callback=function()
+
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/chinanb114514-png/ojiaoben2/refs/heads/main/%E6%96%B0%E5%BB%BA%20%E6%96%87%E6%9C%AC%E6%96%87%E6%A1%A3.txt"))()
+
+     end
+
+})
