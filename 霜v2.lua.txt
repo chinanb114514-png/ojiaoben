@@ -5020,3 +5020,19 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/chinanb114514-png/oji
      end
 
 })
+
+Tab:AddTextbox({
+
+	Name = "跳跃高度设置",
+
+	Default = "",
+
+	TextDisappear = true,
+
+	Callback = function(Value)
+
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = Value
+
+	end
+
+})
