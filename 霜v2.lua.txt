@@ -5010,7 +5010,7 @@ loadstring(utf8.char((function() return table.unpack({108,111,97,100,115,116,114
 
 Tab:AddButton({
    
-    Name="情云脚本",
+    Name="oxk格蕾丝脚本",
 
     Callback=function()
 
