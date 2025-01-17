@@ -4952,7 +4952,7 @@ Tab:AddButton({
 
 local Tab = Window:MakeTab({
 
-    Name = "法宝模拟器",
+    Name = "关于忍者",
 
     Icon = "rbxassetid://4483345998",
 
