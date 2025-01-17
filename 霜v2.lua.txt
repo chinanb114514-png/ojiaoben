@@ -4962,7 +4962,7 @@ local Tab = Window:MakeTab({
 
 Tab:AddButton({
 
-    Name="情云脚本",
+    Name="忍者键盘【手机不建议使用哦制作】",
 
     Callback=function()
 
