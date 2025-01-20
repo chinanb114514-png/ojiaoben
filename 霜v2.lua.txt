@@ -5036,3 +5036,16 @@ Tab:AddTextbox({
 	end
 
 })
+
+Tab:AddButton({
+   
+    Name="速度传奇自动刷蓝宝石",
+
+    Callback=function()
+
+
+while true do
+  game:GetService("ReplicatedStorage").rEvents.orbEvent:FireServer( "collectOrb","Gem", "City")
+  wait()
+
+     end
