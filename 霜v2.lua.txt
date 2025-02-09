@@ -5063,3 +5063,26 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/chinanb114514-png/-/r
      end
 
 })
+
+local Tab = Window:MakeTab({
+
+	Name = "脚本114514超级多",
+
+	Icon = "rbxassetid://4483345998",
+
+	PremiumOnly = false
+
+})
+
+Tab:AddButton({
+   
+    Name="被GB脚本（慎用）",
+
+    Callback=function()
+
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ChinaQY/Scripts/Main/GB"))()
+
+     end
+
+})
